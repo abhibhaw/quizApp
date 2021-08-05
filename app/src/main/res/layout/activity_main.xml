@@ -7,7 +7,8 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background="@drawable/backgroundquizapp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:theme="@style/AppTheme">
 
     <TextView
         android:id="@+id/tv_app_name"
@@ -58,8 +59,9 @@
                android:layout_height="wrap_content"
                android:layout_marginTop="20dp"
                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+               android:theme="@style/AppTheme"
                >
-               <androidx.appcompat.widget.AppCompatEditText
+               <EditText
                    android:id="@+id/et_name"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
